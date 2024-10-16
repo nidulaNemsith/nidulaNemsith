@@ -14,7 +14,7 @@
  
  🌱 I’m currently learning **Express, Next.js, React**
 
-⚡ Fun fact **Game of Thrones Night's Watch cloaks are made from Ikea rugs**
+⚡ Fun fact **Andre the Giant once drank 119 beers in a single sitting**
 
  </div>
  
@@ -32,8 +32,8 @@
 <h2 align="center">⚒️ Languages-Frameworks-Tools ⚒️</h2>
 <br/>
 <div align="center">
-    <img src="https://skillicons.dev/icons?i=react,bootstrap,html,css,vscode,github,figma,tailwind,git" />
-    <img src="https://skillicons.dev/icons?i=nodejs,python,javascript,typescript,express,firebase,mongodb,c,java,nextjs,mysql" /><br>
+    <img src="https://skillicons.dev/icons?i=react,bootstrap,html,css,vscode,github,figma,tailwind,git" /><br>
+    <img src="https://skillicons.dev/icons?i=nodejs,javascript,typescript,express,java,nextjs,mysql" /><br>
 </div>
 
 <br/>
@@ -63,9 +63,5 @@
 <hr/>
 
 <br/>
-
-<div align="center">
-<a href='https://ko-fi.com/V7V4RAK9C' target='_blank'><img height='64' style='border:0px;height:64px;' src='https://storage.ko-fi.com/cdn/kofi1.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
-</div>
 
 <br/>
