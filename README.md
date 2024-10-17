@@ -55,11 +55,11 @@
     <table align="center">
         <tr border="none">
             <td width="50%" align="center">
-                <img width=390 src="https://streak-stats.demolab.com?user=nidulaNemsith&theme=whatsapp-dark2&count_private=true&theme=react&border_radius=10" alt="streak stats"/>
-  <img width=390 src="https://github-readme-stats.vercel.app/api?username=nidulaNemsith&count_private=true&show_icons=true&theme=react&rank_icon=github&border_radius=10" alt="readme stats" />
+                <a href="http://www.github.com/nidulaNemsith"><img src="https://github-readme-stats.vercel.app/api?username=nidulaNemsith&show_icons=true&hide=&count_private=true&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&show_icons=true" alt="nidulaNemsith's GitHub stats" /></a>
+ <a href="http://www.github.com/nidulaNemsith"><img src="https://github-readme-streak-stats.herokuapp.com/?user=nidulaNemsith&stroke=ffffff&background=1c1917&ring=0891b2&fire=0891b2&currStreakNum=ffffff&currStreakLabel=0891b2&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&hide_border=true" /></a>
             </td>
             <td width="50%" align="center">
-                <img width=325 align="center" src="https://github-readme-stats-salesp07.vercel.app/api/top-langs/?username=nidulaNemsith&hide=HTML&langs_count=8&layout=compact&theme=react&border_radius=10&size_weight=0.5&count_weight=0.5&exclude_repo=github-readme-stats" alt="top langs" />
+                <a href="https://github.com/nidulaNemsith" align="left"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nidulaNemsith&langs_count=10&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&locale=en&custom_title=Top%20%Languages" alt="Top Languages" /></a>
             </td>
      </tr>
 </table>
