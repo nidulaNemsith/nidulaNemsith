@@ -11,18 +11,27 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout the repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4  # Updated to v4
 
-      # Generate the snake
+      # Generate the snake animation
       - name: Generate Snake animation
-        uses: Platane/snk@v3  # Correct version
+        uses: Platane/snk@v3
         with:
-          github_user_name: nidulaNemsith  # Replace with your GitHub username
+          github_user_name: nidulaNemsith
           outputs: dist/snake.svg
 
-      # Upload the snake as an artifact
+      # Commit and push the generated snake.svg file
+      - name: Commit and Push Snake SVG
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add dist/snake.svg
+          git commit -m "Generate snake.svg"
+          git push origin HEAD:output
+
+      # Upload the snake as an artifact (if needed)
       - name: Upload Snake animation
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4  # Updated to v4
         with:
           name: snake-graph
           path: dist/snake.svg
