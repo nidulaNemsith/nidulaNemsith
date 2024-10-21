@@ -7,20 +7,22 @@ on:
   workflow_dispatch:
 
 jobs:
-  build:
+  generate-snake:
     runs-on: ubuntu-latest
-
     steps:
-      # Pull down the Snake animation script
-      - name: Generate Snake animation
-        uses: Platane/snk@v2
-        with:
-          github_user_name: nidulaNemsith
-          svg_out_path: dist/output/github-contribution-grid-snake.svg
+      - name: Checkout the repository
+        uses: actions/checkout@v3
 
-      # Push the animation to the GitHub repository
-      - name: Push generated Snake
-        uses: peaceiris/actions-gh-pages@v3
+      # Generate the snake
+      - name: Generate Snake animation
+        uses: Platane/snk@v3  # Correct version
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist/output
+          github_user_name: nidulaNemsith  # Replace with your GitHub username
+          outputs: dist/snake.svg
+
+      # Upload the snake as an artifact
+      - name: Upload Snake animation
+        uses: actions/upload-artifact@v3
+        with:
+          name: snake-graph
+          path: dist/snake.svg
