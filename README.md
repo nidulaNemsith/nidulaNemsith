@@ -10,7 +10,7 @@
 
 <div align="center">
  
- 🔭 I’m currently working on **Main Web Site for Road to Rights**
+ 🔭 I’m currently working on **Main Web Site of Road to Rights**
  
  🌱 I’m currently learning **Express, Next.js, React**
 
