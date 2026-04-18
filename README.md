@@ -8,15 +8,6 @@
 
 <br/>
 
-<div align="center">
- 
- 🔭 I’m currently working on **Main Web Site of Road to Rights**
- 
- 🌱 I’m currently learning **Express, Next.js, React**
-
-⚡ Fun fact **Andre the Giant once drank 119 beers in a single sitting**
-
- </div>
  
 <div align="center"> 
   <a href="mailto:nemsithbaduge215@gmail.com">
